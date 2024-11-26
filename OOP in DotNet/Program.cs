@@ -27,16 +27,16 @@ namespace FoundationCSharp.OOP
             Console.WriteLine(" Rollno is {0} and name is {1} and age is {2}", rollNo, name, age);
         }
         //main method banako 
-        public static void Main(string[] args)
-        {
-            //object banako
-            Student student = new Student();
-            student.Accept(2011, "saroj shrestha", 24);
-            student.Display();
-            Student student2 = new Student();
-            student2.Accept(2012, "Bodhan Dhakal", 25);
-            student2.Display();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    //object banako
+        //    Student student = new Student();
+        //    student.Accept(2011, "saroj shrestha", 24);
+        //    student.Display();
+        //    Student student2 = new Student();
+        //    student2.Accept(2012, "Bodhan Dhakal", 25);
+        //    student2.Display();
+        //}
 
     }
 }
